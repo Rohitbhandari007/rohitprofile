@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro", monospace;
+}
+.nav {
+  display: flex;
+}
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  margin: 1%;
+}
+.logo img {
+  max-width: 100%;
+}
+.links {
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.navlink {
+  text-decoration: none;
+  margin: 1%;
+  color: black;
+  font-weight: 600;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  flex: 1;
+  margin-top: 10%;
+  margin-left: 5%;
+  transition: width 2s, height 4s;
+}
+
+.name-container h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.job-container {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.job-container p {
+  font-weight: 600;
+}
+.button-container {
+  margin: 5%;
+}
+.button-container button {
+  border-radius: 40px;
+  align-items: center;
+  padding: 2%;
+  outline: none;
+  border: none;
+  background-color: rgb(252 214 67);
+  cursor: pointer;
+}
+.button-container button:hover {
+  transition: 1s ease;
+  background-color: rgb(252 214 6);
+}
+.about {
+  margin-top: 11%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(252 214 67);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  display: flex;
+}
+.details-container img {
+  max-height: 100%;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.about-heading-container {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.details-container {
+  display: flex;
+  margin-left: 4%;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+.details-text {
+  margin-left: 2%;
+  font-weight: 600;
+}
+.profile-pic {
+  border-radius: 1px solid black;
+}
+.works {
+  background-color: #1d1e24;
+  border-radius: 40px;
+  margin-top: 5%;
+  margin: 2%;
+  padding-bottom: 8%;
+  color: white;
+  max-width: 100%;
+}
+.works h1 {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.work-container {
+  display: flex;
+  margin-top: 5%;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.work {
+  flex: 1 1 300px;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work img {
+  border-radius: 20px;
+}
+.work img:hover {
+  border: 3px solid black;
+  transition: 0.2s ease;
+}
+
+.title {
+  font-weight: 600;
+}
+.contact {
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+  margin: 2%;
+}
+.contact h1 {
+  align-self: center;
+  margin-top: 5%;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.contact form input {
+  margin: 1%;
+  padding: 2%;
+  outline: none;
+  border-bottom: 1pz solid black;
+}
+.messege {
+  padding: 20%;
+}
+.submit {
+  margin: 2%;
+  padding: 2%;
+  outline: none;
+  border-bottom: 1pz solid black;
+}

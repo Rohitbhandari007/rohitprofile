@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static '/css/style.css' %}">
+        <title>Rohit Bhandari</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <div class="logo">
+                <img src="{% static '/img/logo.png' %}" height=80>
+            </div>
+            <div class="links">
+                
+                <a class="navlink" href="https://github.com/Rohitbhandari007">Github</a>
+                <a class="navlink" href="#">Contact</a>
+            </div>     
+        </div>
+        <div class="body-container">
+            <div class="name-container">
+                <h1>Rohit <br>Bhandari</h1>
+            </div>
+            <div class="job-container">
+                <p>Web Developer | Musician</p>
+            </div>
+            <div class="button-container">
+                <button>See my work</button>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-heading-container">
+                <h1>About me</h1>
+            </div>
+            <div class="details-container">
+                <div class="profile-pic">
+                    <img src="{% static 'contact/img/profile.jpg' %}" height="200" width="200">
+                </div>
+                <div class="details-text">
+                    <p>I am a professional full-stack web developer from Kathmandu, Nepal.<br>
+                    I have diverse set of skills, ranging from desigs, HTML + CSS + JavaScript, all the way to Django as a backend
+                </p>
+            </div>
+        </div>
+        <div class="works">
+            <h1>My projects</h1>
+            <div class="work-container">
+                <div class="work">
+                    <div class="img-container">
+                        <img src="{% static '/img/work1.png' %}" height="150" width="200">
+                    </div>
+                    <div class="text-container">
+                        <div class="title">
+                            Randomwalk
+                        </div>
+                        <div class="description">
+                            <span>2d stimulation of <br>randomwalk</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="work">
+                    <div class="img-container">
+                        <img src="{% static '/img/work1.png' %}"height="150" width="200">
+                    </div>
+                    <div class="text-container">
+                        <div class="title">
+                            Randomwalk
+                        </div>
+                        <div class="description">
+                            <span>2d stimulation of <br>randomwalk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="img-container">
+                        <img src="{% static '/img/work1.png' %}"height="150" width="200">
+                    </div>
+                    <div class="text-container">
+                        <div class="title">
+                            Randomwalk
+                        </div>
+                        <div class="description">
+                            <span>2d stimulation of <br>randomwalk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="img-container">
+                        <img src="{% static '/img/work1.png' %}" height="150" width="200">
+                    </div>
+                    <div class="text-container">
+                        <div class="title">
+                            Randomwalk
+                        </div>
+                        <div class="description">
+                            <span>2d stimulation of <br>randomwalk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1>Contact me</h1>
+            <form>
+                <input type="text" placeholder="Your Email" id="email">
+                <input type="text" placeholder="You Name" id="name">
+                <input type="text" placeholder="Enter your messege" id="messege">
+                <input type="button" id="send" id="send" value="Send" href="#" onclick="apifetch()">
+               
+        </div>
+    <script  src="{% static '/js/contact.js' %}" ></script>
+    </body>
+
+</html>
